@@ -1,0 +1,37 @@
+<!-- UI for adding a new workout session -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Date input -->
+    <EditText
+        android:id="@+id/editTextDate"
+        android:hint="Enter date (e.g. 2025-04-23)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Workout type input -->
+    <EditText
+        android:id="@+id/editTextWorkout"
+        android:hint="Workout Type (e.g. Cardio)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Duration input -->
+    <EditText
+        android:id="@+id/editTextDuration"
+        android:hint="Duration (e.g. 45 mins)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Save button -->
+    <Button
+        android:id="@+id/buttonSaveSession"
+        android:text="Save Session"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+<!--https://developer.android.com/develop/ui/views/layout/declaring-layout -->
