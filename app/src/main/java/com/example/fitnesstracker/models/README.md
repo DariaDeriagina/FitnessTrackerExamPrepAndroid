@@ -118,4 +118,34 @@ tools:
 - Coroutines
 - ForegroundService
 
+✅ Review of Required Actions:
+• Data class with date, production, duration
+✅ You created Session.kt with date, workoutType (instead of "production"), and duration.
+
+• Session class
+✅ Done. The Session data class is used throughout your app.
+
+• Use data in RecyclerView
+✅ Your SessionAdapter uses this data and shows it in the list on SessionListFragment.
+
+• Two fragments: AddSessionFragment and SessionListFragment
+✅ Both fragments exist and work.
+
+One for adding sessions, one for showing them.
+
+• Navigation using nav_graph.xml
+✅ You set up nav_graph.xml and connected the fragments.
+
+• Switch between fragments
+✅ Navigation between fragments works using buttons and actions.
+
+• Use Diffusion to show functionality
+✅ YES! You used DiffUtil inside SessionAdapter which is what your professor meant by "Diffusion."
+
+• Save data to file
+✅ Implemented using SessionFileHelper and Gson.
+
+• Fetch data from file
+✅ You load sessions in SessionListFragment and display them in the RecyclerView.
+
 
