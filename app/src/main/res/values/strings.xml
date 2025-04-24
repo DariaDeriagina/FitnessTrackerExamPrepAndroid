@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FitnessTracker</string>
+    <string name="duration_e_g_45_mins">Duration (e.g. 45 mins)</string>
+    <string name="workout_type_e_g_cardio">Workout Type (e.g. Cardio)</string>
+    <string name="enter_date_e_g_2025_04_23">Enter date (e.g. 2025-04-23)</string>
+    <string name="save_session">Save Session</string>
+    <string name="date">Date</string>
+    <string name="workout_type">Workout Type</string>
+    <string name="duration">Duration</string>
 </resources>

@@ -8,28 +8,28 @@
     <!-- Date input -->
     <EditText
         android:id="@+id/editTextDate"
-        android:hint="Enter date (e.g. 2025-04-23)"
+        android:hint="@string/enter_date_e_g_2025_04_23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <!-- Workout type input -->
     <EditText
         android:id="@+id/editTextWorkout"
-        android:hint="Workout Type (e.g. Cardio)"
+        android:hint="@string/workout_type_e_g_cardio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <!-- Duration input -->
     <EditText
         android:id="@+id/editTextDuration"
-        android:hint="Duration (e.g. 45 mins)"
+        android:hint="@string/duration_e_g_45_mins"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <!-- Save button -->
     <Button
         android:id="@+id/buttonSaveSession"
-        android:text="Save Session"
+        android:text="@string/save_session"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
