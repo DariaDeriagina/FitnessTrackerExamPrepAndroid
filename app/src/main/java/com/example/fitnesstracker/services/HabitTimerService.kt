@@ -1,5 +1,6 @@
 package com.example.fitnesstracker.services
 
+import android.annotation.SuppressLint
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -12,6 +13,7 @@ import com.example.fitnesstracker.R
 
 class HabitTimerService : Service() {
 
+    @SuppressLint("ForegroundServiceType")
     override fun onCreate() {
         super.onCreate()
         val channelId = "timer_channel"

@@ -8,6 +8,7 @@
     <!-- Date input -->
     <EditText
         android:id="@+id/editTextDate"
+        android:autofillHints="16dp"
         android:hint="@string/enter_date_e_g_2025_04_23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -15,6 +16,7 @@
     <!-- Workout type input -->
     <EditText
         android:id="@+id/editTextWorkout"
+        android:autofillHints="16dp"
         android:hint="@string/workout_type_e_g_cardio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -22,6 +24,7 @@
     <!-- Duration input -->
     <EditText
         android:id="@+id/editTextDuration"
+        android:autofillHints="16dp"
         android:hint="@string/duration_e_g_45_mins"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
