@@ -9,6 +9,8 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.fitnesstracker.R
+import com.example.fitnesstracker.Session
+import com.example.fitnesstracker.helpers.SessionFileHelper
 import com.example.fitnesstracker.models.Session
 
 class AddSessionFragment : Fragment() {
@@ -39,6 +41,13 @@ class AddSessionFragment : Fragment() {
             val duration = editDuration.text.toString()
 
             val newSession = Session(date, workout, duration)
+
+            // inside buttonSave.setOnClickListener:
+            val context = requireContext()
+            val sessions = SessionFileHelper.loadSessions(context).toMutableList()
+            sessions.add(newSession)
+            SessionFileHelper.saveSessions(context, sessions)
+
 
             // Save this data using file or shared ViewModel later
 

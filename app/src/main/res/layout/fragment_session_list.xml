@@ -3,10 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <!-- Button to go to Add Session screen -->
+    <Button
+        android:id="@+id/buttonAddSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Session" />
 
+    <!-- RecyclerView to display session list -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewSessions"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+
 </LinearLayout>
 
