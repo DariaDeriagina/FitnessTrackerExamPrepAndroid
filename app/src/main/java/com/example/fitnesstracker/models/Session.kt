@@ -1,4 +1,4 @@
-package com.example.fitnesstracker
+package com.example.fitnesstracker.models
 
 
 // This is your data class that represents one workout session

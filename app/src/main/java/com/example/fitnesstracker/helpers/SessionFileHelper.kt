@@ -1,7 +1,6 @@
 package com.example.fitnesstracker.helpers
 
 import android.content.Context
-import com.example.fitnesstracker.Session
 import com.example.fitnesstracker.models.Session
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

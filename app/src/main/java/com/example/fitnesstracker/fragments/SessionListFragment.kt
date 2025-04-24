@@ -10,10 +10,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fitnesstracker.R
-import com.example.fitnesstracker.Session
 import com.example.fitnesstracker.adapters.SessionAdapter
 import com.example.fitnesstracker.helpers.SessionFileHelper
-import com.example.fitnesstracker.models.Session
 
 class SessionListFragment : Fragment() {
 

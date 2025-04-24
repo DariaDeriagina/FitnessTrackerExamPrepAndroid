@@ -9,9 +9,11 @@ import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.fitnesstracker.R
-import com.example.fitnesstracker.Session
-import com.example.fitnesstracker.helpers.SessionFileHelper
 import com.example.fitnesstracker.models.Session
+import com.example.fitnesstracker.helpers.SessionFileHelper
+
+
+
 
 class AddSessionFragment : Fragment() {
 

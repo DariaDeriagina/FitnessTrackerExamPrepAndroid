@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fitnesstracker.R
-import com.example.fitnesstracker.Session
 import com.example.fitnesstracker.models.Session
+
 
 // Adapter to bind session data to RecyclerView using ListAdapter and DiffUtil
 class SessionAdapter : ListAdapter<Session, SessionAdapter.SessionViewHolder>(DiffCallback()) {
