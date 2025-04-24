@@ -21,6 +21,12 @@
             android:id="@+id/action_addSessionFragment_to_sessionListFragment"
             app:destination="@id/sessionListFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/quoteFragment"
+        android:name="com.example.fitnesstracker.fragments.QuoteFragment"
+        android:label="Motivational Quote" />
+
 </navigation>
 
 <!-- 💡 This connects both fragments and allows two-way navigation. -->
